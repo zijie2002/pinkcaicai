@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宝贝，快来呀</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <div id="bigBox">
+        <h1>LOGIN</h1>
+
+
+        <div class="inputbox">
+                <div class="inputText">
+                    <input type="text" name="" id="user" placeholder="Username" value="请输入账号"><br>
+                </div>
+                <div class="inputText">
+                    <input id="password" placeholder="Password" value="请输入密码">
+                </div>
+                <input type="button" name="LOGIN" id="inputbutton" value="LOGIN" >
+        </div>
+        
+    </div>
+    <div class="jump">
+        <input type="button" name="jump" id="my"    >
+    </div>
+</body>
+</html>
+
+<script language="javascript" type="text/javascript">
+        var btn = document.getElementById('inputbutton');
+        var u = document.getElementById("user");
+        var p=document.getElementById('password');
+        var my = document.getElementById('my')
+        btn.onclick=function(){
+            var user=u.value;
+            var password=p.value;
+            if(user=='440'&& password=='440'){
+                window.location = "./index.html"; //跳转到可视化页面    
+               
+            }else{
+                alert('您输入的账号密码有错，请重新输入')
+            }
+        }
+        btn.addEventListener("keyup" , function(event){
+            event.preventDefault();
+            if(event.keyCode==13){
+                document.getElementById("inputbutton").click();
+            }
+        })
+        my.onclick=function(){
+            var user=u.value;
+            var password=p.value;
+            if(user=='550'&& password=='550'){
+                window.location = "./index.html"; //跳转到可视化页面
+                window.location.href = 'http:www.dongzijie.com'; 
+               
+            }else{
+                alert('您输入的账号密码有错，请重新输入')
+            }
+        }
+</script>
