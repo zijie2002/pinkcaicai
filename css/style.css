@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    color: black;
+}
+
+/*  */
+.header {
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+.logo img{
+    width: 100%;
+    height: 60px;
+}
+.nav{
+    float: left;
+    margin-left: 10%;
+}
+.nav li {
+    float: left;
+    padding: 0 5px;
+}
+.nav li a {
+    display: block;
+    line-height: 80px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #333;
+    /* position: relative;
+    z-index: 3; */
+}
+.nav li:hover a {
+    color: #009ee6;
+    border-bottom: 2px solid #009ee6;
+}
+/* .down{
+    width: 120px;
+    background: #333;
+    border-top: 2px solid blue;
+}
+.down .list{
+    height: 40px;
+    line-height: 40px;
+}
+.list p{
+    float: left;
+    margin-left: 10px;
+    color: #999;
+}
+.list .box{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #999;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px; */
+/* } */
+.tel{
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+}
+.tel p{
+    font: size 14px;
+    color: #666;
+}
+.tel span{
+    font-size: 22px;
+    color: #333;
+}
+
+
+
+/* 海堡区域 */
+.banner{
+    width: 100%;
+    height: 890px;
+    /* background: url(../images/wallhaven-d5yz23.jpg) no-repeat center; */
+    /* position: relative; */
+}
+.banner img{
+    width: 100%;
+    height: 890px;
+}
+
+/* 产品区域 */
+.pro{
+    width: 1160px;
+    height: 620px;
+    margin: 0 auto;
+    background: pink;
+    text-align: center;
+    overflow: hidden;
+}
+.title{
+    margin-top: 80px;
+}
+.title h3{
+    font-size: 30px;
+    counter-reset: #333;
+    font-weight: 100;
+}
+.title p{
+    font-size: 14px;
+    color: #888;
+    margin: 10px 0 25px 0;
+}
+.title b{
+    width: 70px;
+    height: 2px;
+    background-color: black;
+    display: block;
+    margin: 0 auto  ;
+}
+/* 公共标题 */
